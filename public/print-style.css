@@ -1,0 +1,114 @@
+@font-face {
+    font-family:'RobotoSlabRegular';
+    src: url('./public/fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family:'RobotoSlabLight';
+    src: url('./public/fonts/RobotoSlab-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family:'RobotoSlabThin';
+    src: url('./public/fonts/RobotoSlab-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family:'RobotoSlabBold';
+    src: url('./public/fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+body {
+    font-family: 'RobotoSlabRegular';
+    height:100%;
+    max-height:100%;
+    width:100%;
+    max-width: 100%;
+}
+.canvas {
+        padding: 0.8cm;
+        margin: 1cm auto;
+        border-radius: 5px;
+        background: white;
+        max-width: 100%;
+        max-height: 100%;
+}
+
+#resume h1 {
+        font-size: 54px;
+        font-family: "RobotoSlabThin";
+        margin: 0;
+        padding: 0 0 25px 0;
+        font-weight: 100;
+        line-height: 48px;
+}
+#resume .picture {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+#resume .m-title {
+    border-bottom: 1px solid #444444;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: "RobotoSlabBold";
+    /*font-weight:bold;*/
+}
+#resume .i-content {
+    padding-left:8px;
+}
+#resume .i-content > label {
+    padding-left:8px;
+    font-size:11px;
+    font-family: "RobotoSlabBold";
+    margin-bottom: 0px;
+}
+#resume .i-content > span {
+    padding-left:8px;
+    font-size:10px;
+}
+#resume .i-content > ul {
+    font-size:10px;
+    padding-left:20px;
+}
+#resume label {
+        width: 100%;
+        display: block;
+        font-weight: bold;
+        font-size: 11px;
+}
+#resume p {
+        font-size: 11px;
+        color: #3b3b3b;
+        font-weight: 300;
+        line-height: 20px;
+}
+#resume spacer {
+    display:block;
+    margin-top:50px;
+}
+#resume .s-title {
+    font-family: "Bitter",serif;
+    font-size: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+#resume .secondary-title {
+    font-size: 15px;
+    font-family: "RobotoSlabBold";
+    margin-bottom: 5px;
+}
+#resume .sub-title {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 2px;
+    text-align: right;
+    /*padding-right: 30px;*/
+}
+#resume .dots {
+    display:inline-block;
+    border-radius: 50%;
+    background-color:#333;
+    width:10px;
+    height:10px;
+    margin-right:6px;
+}
+.bold {
+    font-family: 'RobotoSlabBold';
+}

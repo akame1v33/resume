@@ -2,141 +2,59 @@
 <html>
 <head>
 	<title></title>
-	<link media = "all" rel="stylesheet" type="text/css" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
-	<style type="text/css" >
-		@font-face {
-		  font-family:'RobotoSlabRegular';
-		  src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
-		}
-		@font-face {
-		  font-family:'RobotoSlabLight';
-		  src: url('fonts/RobotoSlab-Light.ttf') format('truetype');
-		}
-		@font-face {
-		  font-family:'RobotoSlabThin';
-		  src: url('fonts/RobotoSlab-Thin.ttf') format('truetype');
-		}
-		@font-face {
-		  font-family:'RobotoSlabBold';
-		  src: url('fonts/RobotoSlab-Bold.ttf') format('truetype');
-		}
-		body {
-			font-family: 'RobotoSlabRegular';
-		}
-		.canvas {
-			    width: 21cm;
-			    padding: 0.8cm;
-			    margin: 1cm auto;
-			    border: 1px #D3D3D3 solid;
-			    border-radius: 5px;
-			    background: white;
-			    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-			    height:25cm;
-		}
-		#resume h1 {
-			    font-size: 54px;
-			    font-family: "RobotoSlabThin";
-			    margin: 0;
-			    padding: 0 0 25px 0;
-			    font-weight: 100;
-			    line-height: 48px;
-		}
-		#resume .picture {
-			/*border-r*/
-			width:200px;
-			height:200px;
-			border-radius: 50%;
-		}
-		#resume .m-title {
-			border-bottom: 1px solid #444444;
-			font-size: 15px;
-			padding-bottom: 10px;
-			font-family: "RobotoSlabBold";
-			/*font-weight:bold;*/
-		}
-		#resume .i-content {
-			padding-left:8px;
-		}
-		#resume .i-content > label {
-			padding-left:8px;
-			font-size:11px;
-			font-family: "RobotoSlabBold";
-			margin-bottom: 0px;
-		}
-		#resume .i-content > span {
-			padding-left:8px;
-			font-size:10px;
-		}
-		#resume .i-content > ul {
-			font-size:10px;
-			padding-left:20px;
-		}
-		#resume label {
-			    width: 100%;
-			    display: block;
-			    font-weight: bold;
-			    font-size: 11px;
-		}
-		#resume p {
-			    font-size: 11px;
-    			color: #3b3b3b;
-    			font-weight: 300;
-    			line-height: 20px;
-		}
-		#resume spacer {
-			display:block;
-			margin-top:50px;
-		}
-		#resume .s-title {
-			font-family: "Bitter",serif;
-		    font-size: 10px;
-		    margin-bottom: 15px;
-		    font-weight: 600;
-		}
-		#resume .secondary-title {
-			font-size: 15px;
-		    font-family: "RobotoSlabBold";
-		    margin-bottom: 5px;
-		}
-		#resume .sub-title {
-			font-size: 12px;
-		    display: block;
-		    margin-bottom: 2px;
-		    text-align: right;
-		    /*padding-right: 30px;*/
-		}
-		#resume .dots {
-			display:inline-block;
-			border-radius: 50%;
-			background-color:#333;
-			width:10px;
-			height:10px;
-			margin-right:6px;
-		}
-		.bold {
-			font-family: 'RobotoSlabBold';
-		}
-
-	</style>
+	<link rel="stylesheet" media = "all" rel="stylesheet" type="text/css" href="./public/bootstrap-sandstone.css">
+	<link rel="stylesheet" media = "screen" rel="stylesheet" type="text/css" href="./public/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" media = "print" rel="stylesheet" type="text/css" href="./public/print-style.css">
 </head>
 <body>
-	<div class = 'container'>
+	<div class = 'container-fluid'>
 		<div class = 'canvas' id = "resume">
+	
 			<div class = 'row'>
 				 <div class = 'col-4'>
-				 	<img class = 'picture img-responsive' src = "elven.PNG">
-				 	<h3  class = 'm-title' style = 'margin-top:18px;'>Contact Informations</h3>
-				 	<div class = 'i-content'>
-				 		<label>Email</label>
-				 		<span>akame1v33@gmail.com</span>
-				 		<label>Mobile</label>
-				 		<span>0921-673-4457</span>
-				 		<label>Address</label>
-				 		<span>122, Sto Rosario Hagonoy Bulacan</span>
-				 	</div>
-				 	<spacer>
-				 	<h3 class = 'm-title' >Skills</h3>
-				 	<div class = 'i-content'>
+					 <img class = 'picture img-responsive mb-3' src = "public/images/ririna2.jpg">
+					 
+					 <div class = 'list-title'>// CONTACT INFORMATION</div>
+
+					 <table class = 'table table-information'>
+						 <tr>
+							 <td><i class = 'fa fa-envelope'></i></td>
+							 <td>akame1v33@gmail.com</td>
+						 </tr>
+						 <tr>
+							<td><i class = 'fa fa-phone'></i></td>
+							<td>0921-673-4457</td>
+						</tr>
+						<tr>
+							<td><i class = 'fa fa-address-card'></i></td>
+							<td>122, Sto Rosario Hagonoy Bulacan</td>
+						</tr>
+					 </table>
+
+					 <div class = 'list-title mb-3'>// SKILLS</div>
+					 
+					 <table class = 'table table-skills'>
+							<tr>
+								<td>Springboot/SpringMVC/Hibernate</td>
+							</tr>
+							<tr>
+							   <td>Angular 4/5/6</td>
+						   </tr>
+						   <tr>
+							   <td>SQLServer/MySQL/Oracle</td>
+						   </tr>
+						   <tr>
+								<td>Java 7/8</td>
+							</tr>
+							<tr>
+								<td>Javascript</td>
+							</tr>
+							<tr>
+								<td>CSS/SCSS</td>
+							</tr>
+					</table>
+				 	<!-- <div class = 'i-content'>
 				 		<ul>
 				 			<li>Java</li>
 				 			<li>Android Native(Java)</li>
@@ -146,12 +64,12 @@
 				 			<li>MYSQL</li>
 				 			<li>CMS / E-COM / CRM</li>
 				 		</ul>
-				 	</div>
+				 	</div> -->
 				 </div>
 				 <div class = 'col-8'>
-				 	<h1>KEVIN FABIAN</h1>
+				 	<h1 class = 'huge-name'>KEVIN FABIAN</h1>
 				 	<p>
-                       Java Fanatic, Futuristic-minded professional seeking a position as a Java Developer at COMPANY where knowledge of software development life cycle, a high technical aptitude, and unyielding commitment to work can effectively utilized to contribute to the successful and profitable operation of the firm.</p>
+                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus commodi quaerat ipsum praesentium provident ab veritatis eos dolorem debitis reprehenderit ratione architecto blanditiis, aut obcaecati repudiandae, eaque numquam, voluptatum minima?</p>
                     <h3 class = 's-title' style = 'margin-top:60px'>Experience</h3>
                     <div class = 'row'>
                     	<div class = 'col-5'>
