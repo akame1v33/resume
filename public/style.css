@@ -42,14 +42,6 @@ body {
 #resume i {
     color:#325D88;
 }
-/* #resume div.list-title {
-    color:#325D88;
-    font-weight: bold;
-    font-size: 14px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-} */
 #resume table  {
     font-size:11px;
 }
@@ -62,14 +54,14 @@ body {
     padding-bottom:0.15rem !important;
     border-top:none !important;
 }
-#resume .table-information > tbody > tr > td:nth-child(1) {
+/* #resume .table-information > tbody > tr > td:nth-child(1) {
     border-bottom:1px solid #DFD7CA;
   
 }
 #resume .table-information > tbody > tr > td:nth-child(2) {
     border-left:1px solid #DFD7CA;
     border-bottom:1px solid #DFD7CA;
-}
+} */
 
 #resume .picture {
     width:200px;
@@ -173,3 +165,4 @@ body {
     font-family: 'ROB'
     /*padding-right: 30px;*/
 }
+
